@@ -2,7 +2,7 @@ function WrapperComponent({children}) {
       return(
         <>
             <div className="box">
-                <p>Mes alertes</p>
+                <h1>Mes alertes</h1>
                 {children}
             </div>
         </>

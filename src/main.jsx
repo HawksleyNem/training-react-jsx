@@ -9,8 +9,5 @@ import NotificationComponent from './components/NotificationComponent.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <WrapperComponent>
-      <NotificationComponent type="is-danger" content="Je suis un message d'avertissement"/>
-    </WrapperComponent>
   </React.StrictMode>,
 )
